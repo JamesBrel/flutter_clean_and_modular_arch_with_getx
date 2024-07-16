@@ -5,7 +5,6 @@ in order to respect this configuration format
 
 ```yaml
 assets:
-  - assets/languages/
   - assets/images/jpg/
   - assets/images/png/
   - assets/images/svg/
@@ -15,6 +14,7 @@ assets:
 ### Images
 you have to create a folder **images** and then in this folder, you have to create specific folders for each image format that you want to introduce in your application.
 - jpg
+- gif
 - png
 - svg
 
