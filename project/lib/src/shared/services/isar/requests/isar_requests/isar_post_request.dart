@@ -6,6 +6,8 @@
 // import '../../utils/statuts_util.dart';
 
 // class IsarPostRequest {
+//  IsarPostRequest._();
+
 //   static Future<Map<String, dynamic>> post<Type>({
 //     required Type data,
 //   }) async {

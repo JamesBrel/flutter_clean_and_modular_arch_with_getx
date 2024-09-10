@@ -3,6 +3,8 @@
 // import '../../configs/cache_instance.dart';
 
 // class StoragePutRequest {
+//  StoragePutRequest._();
+
 //   static Future<void> put({
 //     required String key,
 //     required String data,

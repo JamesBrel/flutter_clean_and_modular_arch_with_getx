@@ -5,6 +5,7 @@
 // import '../configs/firebase_instance.dart';
 
 // class FirebaseConverter {
+// FirebaseConverter._();
 //   static DocumentReference<Map<String, dynamic>> getDocRef({
 //     required String collectionName,
 //     required String id,

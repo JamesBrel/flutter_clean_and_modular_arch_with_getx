@@ -5,6 +5,8 @@
 // import '../../utils/status_util.dart';
 
 // class FirestorePostRequest {
+// FirestorePostRequest._();
+
 //   static Future<Map<String, dynamic>> post({
 //     required String collectionName,
 //     required Map<String, dynamic> data,

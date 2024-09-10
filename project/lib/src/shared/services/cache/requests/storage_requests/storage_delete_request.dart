@@ -3,6 +3,8 @@
 // import '../../configs/cache_instance.dart';
 
 // class StorageDeleteRequest {
+//  StorageDeleteRequest._();
+
 //   static Future<void> delete({
 //     required String key,
 //     required String data,

@@ -5,6 +5,8 @@
 // import '../configs/connection_instance.dart';
 
 // class ConnectionCheckerRequest {
+//   ConnectionCheckerRequest._();
+
 //   static Future<bool> check() async {
 //     return kDebugMode ? true : await internetConnectivity.hasInternetAccess;
 //   }

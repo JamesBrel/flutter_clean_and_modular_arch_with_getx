@@ -7,6 +7,8 @@
 // import '../../utils/statuts_util.dart';
 
 // class IsarGetStreamRequest {
+//  IsarGetStreamRequest._();
+
 //   static Stream<Map<String, dynamic>> getOne<Type>({
 //     required int id,
 //   }) {

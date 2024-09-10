@@ -4,6 +4,8 @@
 // import '../../enums/shared_preference_enum.dart';
 
 // class StreamGetRequest {
+//  StreamGetRequest._();
+
 //   static Stream<Map<String, dynamic>> get({
 //     required String key,
 //     required Preferences preferences,

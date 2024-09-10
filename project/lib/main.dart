@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
       translations: TranslationConfig(),
       locale: Get.deviceLocale,
       fallbackLocale: const Locale("en", "US"),
+      enableLog: false,
     );
   }
 }

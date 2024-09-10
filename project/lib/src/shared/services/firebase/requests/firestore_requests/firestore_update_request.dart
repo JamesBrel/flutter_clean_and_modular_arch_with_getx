@@ -5,6 +5,8 @@
 // import '../../utils/status_util.dart';
 
 // class FirestoreUpdateRequest {
+// FirestoreUpdateRequest._();
+
 //   static Future<Map<String, dynamic>> updateOne({
 //     required String collectionName,
 //     required Map<String, dynamic> data,

@@ -10,6 +10,8 @@
 // import '../../utils/status_util.dart';
 
 // class FirebaseStoragePostRequest {
+// FirebaseStoragePostRequest._();
+
 //   static Future<Map<String, dynamic>> uploadFile({
 //     required String folderRef,
 //     required String fileName,

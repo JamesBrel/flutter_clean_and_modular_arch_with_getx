@@ -4,11 +4,13 @@
 // import '../../enums/shared_preference_enum.dart';
 
 // class SharedGetRequest {
+//  SharedGetRequest._();
+
 //   static Future<Map<String, dynamic>> get({
 //     required String key,
 //     required Preferences preferences,
 //   }) async {
-//     if ((await sharedPreferences).containsKey(key)) {
+//     if ((await shsaredPreferences).containsKey(key)) {
 //       switch (preferences) {
 //         case Preferences.stringType:
 //           return {

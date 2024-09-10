@@ -520,13 +520,13 @@ the predefined files, such as welcome.dart in the front end and other folders, a
       # Optional
       line_length: 80
       # Optional
-      parse_metadata: false
+      parse_metadata: true
 
       # Optional
       integrations:
-         flutter_svg: true
-         flare_flutter: true
-         rive: true
+         flutter_svg: false
+         flare_flutter: false
+         rive: false
          lottie: false
 
       assets:
@@ -539,8 +539,8 @@ the predefined files, such as welcome.dart in the front end and other folders, a
             # See: https://flutter.dev/docs/development/ui/assets-and-images#from-packages
             package_parameter_enabled: true
             # Optional
-            # Available values:
-            # - camel-case
+            Available values:
+            - camel-case
             # - snake-case
             # - dot-delimiter
             style: dot-delimiter
@@ -549,10 +549,19 @@ the predefined files, such as welcome.dart in the front end and other folders, a
 
       fonts:
          # Optional
-         enabled: true
+         enabled: false
          # Optional
          outputs:
             class_name: FontFamily
+
+      colors:
+         # Optional
+         enabled: true
+         # Optional
+         inputs:
+            - assets/colors/color.xml
+         outputs:
+            class_name: ColorsApp
    ```
    after you read the doc : https://pub.dev/packages/flutter_gen
 

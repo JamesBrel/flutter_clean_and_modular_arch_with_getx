@@ -6,6 +6,8 @@
 // import '../configs/image_instance.dart';
 
 // class ImageCameraRequest {
+// ImageCameraRequest._();
+
 //   static Future<Map<String, dynamic>> cameraImage() async {
 //     return await imagePicker
 //         .pickImage(source: ImageSource.camera)

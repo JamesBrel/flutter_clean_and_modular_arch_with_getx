@@ -4,6 +4,8 @@
 // import '../../enums/shared_preference_enum.dart';
 
 // class StreamPutRequest {
+//  StreamPutRequest._();
+
 //   static Future<void> put({
 //     required String key,
 //     required Map<String, dynamic> data,

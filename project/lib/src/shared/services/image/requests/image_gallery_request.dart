@@ -7,6 +7,8 @@
 // import '../configs/image_instance.dart';
 
 // class ImageGalleryRequest {
+//  ImageGalleryRequest._();
+
 //   static Future<Map<String, dynamic>> galleryImage() async {
 //     return await imagePicker
 //         .pickImage(source: ImageSource.gallery)

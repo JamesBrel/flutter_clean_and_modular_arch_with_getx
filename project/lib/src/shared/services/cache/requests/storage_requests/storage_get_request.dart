@@ -3,6 +3,8 @@
 // import '../../configs/cache_instance.dart';
 
 // class StorageGetRequest {
+//  StorageGetRequest._();
+
 //   static Future<Map<String, dynamic>> put({
 //     required String key,
 //   }) async {

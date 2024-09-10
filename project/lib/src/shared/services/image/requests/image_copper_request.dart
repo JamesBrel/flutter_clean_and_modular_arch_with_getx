@@ -12,6 +12,8 @@
 // import '../messages/note_message.dart';
 
 // class ImageCropperRequest {
+//  ImageCropperRequest._();
+
 //   static Future<Map<String, dynamic>> cropImage({
 //     required BuildContext context,
 //     required String mediaImagePath,

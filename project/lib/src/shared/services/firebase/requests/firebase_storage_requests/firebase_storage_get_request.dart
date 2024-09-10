@@ -5,6 +5,8 @@
 // import '../../utils/status_util.dart';
 
 // class FirebaseStorageGetRequest {
+// FirebaseStorageGetRequest._();
+
 //   static Future<Map<String, dynamic>> getUrlImage({
 //     required String fileName,
 //     required String folderRef,

@@ -3,6 +3,8 @@
 // import 'dart:convert';
 
 // class DecryptRequest {
+//  DecryptRequest._();
+
 //   static String decrypt({
 //     required String dataEncrypted,
 //   }) {

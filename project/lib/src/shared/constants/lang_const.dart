@@ -1,12 +1,15 @@
 class Lang {
+  Lang._();
   static const welcome = "welcome";
-  static const noImageTake = "no_image_take";
-  static const deviceError = "device_error";
-  static const noConnection = "no_connection";
-  static const noContent = "no_content";
-  static const requestErrorTryAgain = "request_error_try_again";
-  static const serverError = "internal_error";
-  static const verifyError = "verify_error";
-  static const timeError = "time_error";
-  static const unknownError = "unknown_error";
+  static const noImageTake = "noImageTake";
+  static const deviceError = "deviceError";
+  static const noConnection = "noConnection";
+  static const noContent = "noContent";
+  static const requestErrorTryAgain = "requestErrorTryAgain";
+  static const serverError = "internalError";
+  static const verifyError = "verifyError";
+  static const timeError = "timeError";
+  static const unknownError = "unknownError";
+
+  static const welcomeInfo = "welcomeInfo";
 }

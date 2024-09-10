@@ -1,5 +1,8 @@
 part of 'app_pages.dart';
 
 abstract class Routes {
-  static const WELCOME = '/';
+  Routes._();
+
+  static const splashScreen = '/';
+  static const welcomeScreen = '/welcomeScreen';
 }

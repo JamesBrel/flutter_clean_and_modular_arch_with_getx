@@ -1,4 +1,6 @@
 class FirebaseStatus {
+  FirebaseStatus._();
+
   static const created = 201;
   static const ok = 200;
   static const accepted = 202;

@@ -5,6 +5,8 @@
 // import '../../../constants/lang_const.dart';
 
 // class ImageCompressRequest {
+//  ImageCompressRequest._();
+
 //   static Future<Map<String, dynamic>> compressTheImage({
 //     required String mediaImage,
 //   }) async {

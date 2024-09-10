@@ -6,6 +6,8 @@
 // import '../../configs/firebase_instance.dart';
 
 // class AnalyticObserverRequest {
+// AnalyticObserverRequest._();
+
 //   static FirebaseAnalyticsObserver initObserverNavigator() =>
 //       FirebaseAnalyticsObserver(analytics: firebaseAnalyser);
 // }

@@ -4,6 +4,8 @@
 // import '../../configs/firebase_instance.dart';
 
 // class AnalyticGetEventRequest {
+// AnalyticGetEventRequest._();
+
 //   static Future<void> get({
 //     required String eventName,
 //     required Map<String, dynamic> eventParameters,

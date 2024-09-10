@@ -4,6 +4,8 @@
 // import '../../configs/cache_instance.dart';
 
 // class SharedDeleteRequest {
+//  SharedDeleteRequest._();
+
 //   static Future<Map<String, dynamic>> delete({
 //     required String key,
 //   }) async {

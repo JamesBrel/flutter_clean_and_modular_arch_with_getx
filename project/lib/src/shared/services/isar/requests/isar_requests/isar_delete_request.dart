@@ -6,6 +6,8 @@
 // import '../../utils/statuts_util.dart';
 
 // class IsarDeleteRequest {
+//  IsarDeleteRequest._();
+
 //   static Future<Map<String, dynamic>> deleteOne<Type>({
 //     required int id,
 //   }) async {

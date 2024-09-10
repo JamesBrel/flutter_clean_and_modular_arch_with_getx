@@ -5,6 +5,8 @@
 // import '../../utils/status_util.dart';
 
 // class FirestoreStreamGetRequest {
+// FirestoreStreamGetRequest._();
+
 //   static Stream<Map<String, dynamic>> getOne({
 //     required String collectionName,
 //     required Map<String, dynamic> data,

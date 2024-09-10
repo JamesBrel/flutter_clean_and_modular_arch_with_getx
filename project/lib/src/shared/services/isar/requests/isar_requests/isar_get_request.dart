@@ -7,6 +7,8 @@
 // import '../../utils/statuts_util.dart';
 
 // class IsarGetRequest {
+//  IsarGetRequest._();
+
 //   static Future<Map<String, dynamic>> getOne<Type>({
 //     required int id,
 //   }) async {

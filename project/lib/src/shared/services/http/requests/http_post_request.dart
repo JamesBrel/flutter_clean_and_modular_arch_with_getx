@@ -2,36 +2,36 @@
 
 // import 'package:dio/dio.dart';
 
-// import '../../../constants/lang_const.dart';
 // import '../configs/dio_instance.dart';
 
 // class HttpPostRequest {
-//   static Future<Map<String, dynamic>> post({
+//   HttpPostRequest._();
+
+//   static Future<Map<String, dynamic>> post<T>({
 //     required String api,
-//     required String content,
-//     required Map<String, String> headers,
+//     Map<String, dynamic>? headers,
+//     Map<String, dynamic>? queryParameters,
+//     Object? content,
+//     ResponseType responseType = ResponseType.json,
 //   }) async {
 //     return await dio
-//         .post<String>(
+//         .post<T>(
 //           api,
 //           data: content,
 //           options: Options(
 //             headers: headers,
+//             responseType: responseType,
 //           ),
+//           queryParameters: queryParameters,
 //         )
 //         .then((response) => {
 //               "status": true,
 //               "response": response,
 //             })
-//         .onError<DioException>((error, stackTrace) {
-//       return {
-//         "status": false,
-//         "message": error.type == DioExceptionType.connectionTimeout ||
-//                 error.type == DioExceptionType.receiveTimeout
-//             ? Lang.timeError
-//             : Lang.unknownError,
-//       };
-//     });
+//         .onError<DioException>((error, stackTrace) => {
+//               "status": false,
+//               "error": error,
+//             });
 //   }
 
 //   static Future<Response<String>> postFile({

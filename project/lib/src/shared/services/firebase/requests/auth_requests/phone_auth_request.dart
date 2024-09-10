@@ -12,6 +12,8 @@
 // import '../../utils/status_util.dart';
 
 // class AuthRequest {
+// AuthRequest._();
+
 //   static Future<Map<String, dynamic>> getSmsCode({
 //     required Map<String, dynamic> data,
 //   }) async {

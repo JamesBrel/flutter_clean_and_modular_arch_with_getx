@@ -5,5 +5,7 @@
 // import 'package:isar/isar.dart';
 
 // class IsarInstance {
+//  IsarInstance._();
+
 //   static var isarDb = Isar.getInstance(EnvPath.instanceName);
 // }

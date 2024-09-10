@@ -5,6 +5,8 @@
 // import '../../utils/status_util.dart';
 
 // class FirestoreGetRequest {
+// FirestoreGetRequest._();
+
 //   static Future<Map<String, dynamic>> getOne({
 //     required String collectionName,
 //     required Map<String, dynamic> data,

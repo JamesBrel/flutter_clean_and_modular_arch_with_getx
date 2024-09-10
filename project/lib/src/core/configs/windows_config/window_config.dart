@@ -9,6 +9,7 @@
 // import '../../../shared/constants/string_const.dart';
 
 // class WindowConfig {
+//   WindowConfig._();
 //   static void windows() {
 //     WindowManager.instance.setTitle("$app ${EnvPath.env}");
 //     WindowManager.instance.setSize(const Size(windowWidth, windowHeight));

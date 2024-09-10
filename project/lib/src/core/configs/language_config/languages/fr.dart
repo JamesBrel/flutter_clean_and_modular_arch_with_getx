@@ -1,12 +1,13 @@
 Map<String, String> french = {
   "welcome": "Salut Tout le Monde 😉...",
-  "no_connection": "Pas de connexion internet",
-  "time_error": "Temps d'éxécution dépassé",
-  "request_error_try_again": "Erreur de requête, Réessayer !",
-  "no_content": "Aucun contenu",
-  "internal_error": "Erreur sur le serveur",
-  "crop_image": "Trimmer l'Image",
-  "no_image_take": "Erreur durant la prise d'image, Veuillez réessayer !",
-  "device_error": "Erreur au niveau de votre appareil",
-  "unknown_error": "Erreur inconnue",
+  "noConnection": "Pas de connexion internet",
+  "timeError": "Temps d'éxécution dépassé",
+  "requestErrorTryAgain": "Erreur de requête, Réessayer !",
+  "noContent": "Aucun contenu",
+  "internalError": "Erreur sur le serveur",
+  "cropImage": "Trimmer l'Image",
+  "noImageTake": "Erreur durant la prise d'image, Veuillez réessayer !",
+  "deviceError": "Erreur au niveau de votre appareil",
+  "unknownError": "Erreur inconnue",
+  "welcomeInfo": "Clean Architecture avec Getx"
 };

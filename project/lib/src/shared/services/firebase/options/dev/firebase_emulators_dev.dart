@@ -7,6 +7,8 @@
 // import 'package:flutter/material.dart';
 
 // class Emulators {
+//  Emulators._();
+
 //   static var host = Platform.isAndroid ? '10.0.2.2' : 'localhost';
 //   static var _firebaseAuth = FirebaseAuth.instance;
 //   static var _firebaseFirestore = FirebaseFirestore.instance;

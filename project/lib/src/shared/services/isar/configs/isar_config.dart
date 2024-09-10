@@ -10,6 +10,8 @@
 // import '../../../constants/string_const.dart';
 
 // class IsarConfig {
+//  IsarConfig._();
+
 //   /// Note : Dans cette fonction , j'initialise la Base de Donnée Isar pour Android
 //   static Future<void> isarAndroidInit() async {
 //     try {

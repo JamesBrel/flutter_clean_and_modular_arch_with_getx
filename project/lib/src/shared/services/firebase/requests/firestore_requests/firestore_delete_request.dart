@@ -5,6 +5,7 @@
 // import '../../utils/status_util.dart';
 
 // class FirestoreDeleteRequest {
+// FirestoreDeleteRequest._();
 //   static Future<Map<String, dynamic>> deleteOne({
 //     required String collectionName,
 //     required Map<String, dynamic> data,

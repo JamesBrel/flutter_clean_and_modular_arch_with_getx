@@ -2,33 +2,33 @@
 
 // import 'package:dio/dio.dart';
 
-// import '../../../constants/lang_const.dart';
 // import '../configs/dio_instance.dart';
 
 // class HttpDeleteRequest {
-//   static Future<Map<String, dynamic>> deleteOne({
+// HttpDeleteRequest._();
+
+//   static Future<Map<String, dynamic>> delete<T>({
 //     required String api,
-//     required Map<String, String> headers,
+//     Map<String, dynamic>? headers,
+//     Map<String, dynamic>? queryParameters,
+//     ResponseType responseType = ResponseType.json,
 //   }) async {
 //     return await dio
-//         .delete<String>(
+//         .delete<T>(
 //           api,
 //           options: Options(
 //             headers: headers,
+//             responseType: responseType,
 //           ),
+//           queryParameters: queryParameters,
 //         )
 //         .then((response) => {
 //               "status": true,
 //               "response": response,
 //             })
-//         .onError<DioException>((error, stackTrace) {
-//       return {
-//         "status": false,
-//         "message": error.type == DioExceptionType.connectionTimeout ||
-//                 error.type == DioExceptionType.receiveTimeout
-//             ? Lang.timeError
-//             : Lang.unknownError,
-//       };
-//     });
+//         .onError<DioException>((error, stackTrace) => {
+//               "status": false,
+//               "error": error,
+//             });
 //   }
 // }
